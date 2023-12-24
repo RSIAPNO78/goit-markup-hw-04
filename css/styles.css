@@ -522,10 +522,6 @@ img {
     padding: 120px 0;
 }
 
-.list-features .second-section-header {
-    margin-bottom: 8px;
-}
-
 .second-section {
     background-color: #FFFFFF;
 }
@@ -824,6 +820,43 @@ img {
 .logo-style-link {
     display: flex;
 }
+
+
+/*THIS IS MY HOMEWORK 4 */
+
+
+.second-section {
+    height: 464px;
+}
+
+.second-section .icons-item-features {
+    background-color: #F4F4FD;
+}
+
+.feature-item-icons .feature-item-icons {
+    height: 112px;
+}
+
+.icons-item-features {
+    width: 64px;
+    height: 64px;
+    margin: 24px 100px;
+    background-color: #F4F4FD;
+    border: 4px;
+}
+
+.list-features {
+    list-style-type: none;
+    display: flex;
+}
+
+.second-section-header {
+    display: flex;
+    height: 24px;
+    margin: 8px 0;
+}
+
+
 
 
 
