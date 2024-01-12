@@ -111,9 +111,6 @@ body {
      letter-spacing: 0.02em;
 }
 
- .first-section {
-     background-color: #2e2f42;
- }
 
 .first-section-button {
      color: #ffffff;
@@ -456,6 +453,7 @@ img {
      display: flex;
      margin: 0 auto;
      margin-bottom: 48px;
+     text-align: center;
 }
 
 .first-section .first-section-container {
@@ -777,6 +775,7 @@ img {
          /*HEADER*/
 
 .header {
+     width: 1558px;
      max-width: 1440px;
      height: 72px;
      background-repeat: no-repeat;
@@ -789,6 +788,7 @@ img {
      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
           0px 1px 1px rgba(46, 47, 66, 0.16),
           0px 1px 6px rgba(46, 47, 66, 0.08);
+     margin: 0 auto;
 }
 
 .inside-logo-link {
@@ -802,61 +802,54 @@ img {
      letter-spacing: 0.54px;
 }
 
+.style-list {
+     padding: 24px 0;
+}
+
              
            /*FIRST SECTION HERO*/
 
-.first-section {
-     background-image: linear-gradient(rgba(46, 47, 66, 0. 7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-     max-width: 1440px;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     margin: 0 auto;
-}  
-
-.people-office {
-     background: url(<path-to-image>), lightgray 0px -167.766px / 100% 139.922% no-repeat;
-          padding: 0;
-          border: 0;
-          font: inherit;
-          vertical-align: inherit;
-          outline: none;
-          letter-spacing: inherit;
-          -webkit-text-decoration: none;
-          text-decoration: none;
-          cursor: inherit;
-          display: block;
-          align-items: center;
-}
-
-
-.first-section-header {
-          color: var(--WHITE);
-          font-size: 56px;
-          font-weight: 700;
-          line-height: 1.07;
-          letter-spacing: 0.02em;
-          text-align: center;
-          max-width: 496px;
-          margin: 0 auto 48px;
-}
+.first-section  {
+      background-color: var(--NAVY-BLUE, #2e2f42);
+      max-width: 1440px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+           url(../images/people-office-1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+     text-align: center;
+ }
+.first-section-header  {
+      color: var(--white);
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      text-align: center;
+      max-width: 496px;
+      margin: 0 auto 48px;
+ }
 
 .first-section-button {
-          color: var(--WHITE);
-          font-family: 'Roboto', sans-serif;
-          background-color: var(--IRIS);
-          font-weight: 500;
-          font-size: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.04em;
-          cursor: pointer;
-          display: block;
-          min-width: 169px;
-          height: 56px;
-          border: none;
-          border-radius: 4px;
-          margin: 0 auto;
-}
+      color: var(--white);
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--iris);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      display: block;
+      min-width: 169px;
+      height: 56px;
+      border: none;
+      border-radius: 4px;
+      margin: 0 auto;
+ }
+ .first-section-container {
+     padding: 188px 492px;
+ }
 
                  /*SECOND SECTION*/
 
