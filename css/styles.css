@@ -803,7 +803,31 @@ img {
 }
 
              
-           /*FIRST SECTION- HERO */
+           /*FIRST SECTION HERO*/
+
+.first-section {
+     background-image: linear-gradient(rgba(46, 47, 66, 0. 7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+     max-width: 1440px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin: 0 auto;
+}  
+
+.people-office {
+     background: url(<path-to-image>), lightgray 0px -167.766px / 100% 139.922% no-repeat;
+          padding: 0;
+          border: 0;
+          font: inherit;
+          vertical-align: inherit;
+          outline: none;
+          letter-spacing: inherit;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: inherit;
+          display: block;
+          align-items: center;
+}
 
 
 .first-section-header {
