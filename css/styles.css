@@ -777,8 +777,11 @@ img {
          /*HEADER*/
 
 .header {
-     width: 1440px;
+     max-width: 1440px;
      height: 72px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
      background-color: var(--white);
      border-bottom-width: 1px;
      border-bottom-style: solid;
@@ -802,12 +805,33 @@ img {
              
            /*FIRST SECTION- HERO */
 
-.first-section {
-        max-width: 1440px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0 auto;
+
+.first-section-header {
+          color: var(--WHITE);
+          font-size: 56px;
+          font-weight: 700;
+          line-height: 1.07;
+          letter-spacing: 0.02em;
+          text-align: center;
+          max-width: 496px;
+          margin: 0 auto 48px;
+}
+
+.first-section-button {
+          color: var(--WHITE);
+          font-family: 'Roboto', sans-serif;
+          background-color: var(--IRIS);
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.5;
+          letter-spacing: 0.04em;
+          cursor: pointer;
+          display: block;
+          min-width: 169px;
+          height: 56px;
+          border: none;
+          border-radius: 4px;
+          margin: 0 auto;
 }
 
                  /*SECOND SECTION*/
@@ -849,12 +873,15 @@ img {
 }
 
 .team-member-bgcolor {
-     border-radius: 0px 0px 4px 4px;
-     background: var(--WHITE, #FFF);
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-               0px 1px 1px rgba(46, 47, 66, 0.16),
-               0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+          background-color: var(--WHITE);
+          width: calc((100% - 72px) / 4);
+          border-radius: 0 0 4px 4px;
+          background: var(--WHITE, #FFF);
+          /* x-offset y-offset blur spread color */
+          box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+               0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+               0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+     }
 
 .card-content-name {
      width: 264px;
@@ -863,8 +890,8 @@ img {
 }
 
 .team-member-position {
-     padding-top: 8px;
-     padding-bottom: 8px;
+     text-align: center;
+     padding: 8px;
 }
 
 .fourth-section-ourteam {
@@ -874,41 +901,38 @@ img {
      display: flex;
      margin: 0 auto;
      border: 0;
+     background-color: var(--CLOUD);
+     padding: 120px 0;
 }
 
-.employee-socmed-ul {
+.team-icon-list {
      display: flex;
      justify-content: center;
      gap: 24px;
-     list-style: none;
-     padding-left: 3px;
-     list-style: none;
 }
 
-.employee-socmed-li {
+.team-icon-item {
      width: 40px;
      height: 40px;
 }
 
-
-.employee-socmed-ul .socmed-link {
+.team-icon-link {
      width: 100%;
      height: 100%;
-     background-color: var(--iris);
+     background-color: var(--IRIS, #4d5ae5);
      border-radius: 50%;
      display: flex;
      align-items: center;
      justify-content: center;
 }
 
-.employee-socmed-li:hover,
-.employee-socmed-li:focus {
+.team-icon-link:hover,
+.team-icon-link:focus {
      background-color: var(--OCEAN, #404bbf);
 }
 
-.socmed-svg-style {
-     fill: var(--cloud);
-     justify-content: space-around;
+.team-icon {
+     fill: var(--CLOUD, #f4f4fd);
 }
 
        /* FIFTH SECTION-CUSTOMERS*/
