@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,10 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    
     <link rel="stylesheet" href="css/styles.css" />
-    <title>My Third Homework!</title>
+    <title>My Fourth Homework- Portfolio!</title>
 
 </head>
 <body> 
@@ -43,60 +42,60 @@
     </div>
   </section>
 </header>
+
 <!--This is the first section-->
-<main class="main">
-    <section class="filter-section">
+<main>
+  <section class="filter-section">
       <div class="container filter-section-buttons">
         <h1 class="visually-hidden">Portfolio</h1>
         <ul class="filter-button">
-            <li><button class="filter-button-active" type="button">All</button></li>
-            <li><button class="button" type="button">Web Site</button></li>
-            <li><button class="button" type="button">App</button></li>
-            <li><button class="button" type="button">Design</button></li>
-            <li><button class="button" type="button">Marketing</button></li>
+            <li class="cards-item"><button class="button" type="cards-btn">All</button></li>
+            <li class="cards-item"><button class="button" type="cards-btn">Web Site</button></li>
+            <li class="cards-item"><button class="button" type="cards-btn">App</button></li>
+            <li class="cards-item"><button class="button" type="cards-btn">Design</button></li>
+            <li class="cards-item"><button class="button" type="cards-btn">Marketing</button></li>
         </ul>
       </div>
-    </section>
+    
    
     <!--This is the second section-->
     <section class="project-card">
       <div class="container project-card-container">
         <ul class="project-card-list">
-            <li>
-                <a class="link" href="">
-                <img src="./images/imge.jpg" alt="project-card1" width="360">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
+                <img src="./images/imge.jpg" alt="project-card1" width="360" height="300"/>
                 </a>
               <div class="card-content">
                 <h2 class="card-features">Banking App Interface Concept</h2>
                 <p class="card-name">App</p>
               </div>  
             </li>
-            <li>
-                <a class="link" href="">
-                <img src="./images/imgf.jpg" alt="project-card2" width="360">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
+                <img src="./images/imgf.jpg" alt="project-card2" width="360" height="300"/>
                 </a>
               <div class="card-content">
                 <h2 class="card-features">Cashless Payment</h2>
                 <p class="card-name">Marketing</p>
               </div>             
             </li>
-            <li>
-                <a class="link" href="">
-                <img src="./images/imgg.jpg" alt="project-card3" width="360">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
+                <img src="./images/imgg.jpg" alt="project-card3" width="360" height="300"/>
                 </a>
               <div class="card-content">
                 <h2 class="card-features">Meditation App</h2>
                 <p class="card-name">App</p>
               </div>   
             </li>
-       </ul>
-    
-    
+        </ul>
+      
     <!--This is third section-->
     
        <ul class="project-card-list">
-            <li>
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgh.jpg" alt="project-card1:2" width="360">
                 </a>
               <div class="card-content">
@@ -104,8 +103,8 @@
                 <p class="card-name">Marketing</p>
               </div>   
             </li>
-            <li>
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgi.jpg" alt="project-card2:2" width="360">
                 </a>
               <div class="card-content">
@@ -113,8 +112,8 @@
                 <p class="card-name">Design</p>
               </div>
             </li>
-            <li>
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgj.jpg" alt="project-card2:3" width="360">
                 </a>
               <div class="card-content">
@@ -126,8 +125,8 @@
     
     <!--This is the fourth section-->
        <ul class="project-card-list">
-            <li>
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgk.jpg" alt="project-card3:1" width="360">
                 </a>
               <div class="card-content">
@@ -135,8 +134,8 @@
                 <p class="card-name">Design</p>
               </div>   
             </li>
-            <li> 
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgL.jpg" alt="project-card3:2" width="360">
                 </a>
               <div class="card-content">
@@ -144,8 +143,8 @@
                 <p class="card-name">Web Site</p>
               </div>  
             </li>
-            <li>
-                <a class="link" href="">
+            <li class="project-card-item">
+                <a class="project-card-link" href="">
                 <img src="./images/imgm.jpg" alt="project-card3:3" width="360">
                 </a>
               <div class="card-content">
@@ -153,22 +152,56 @@
                 <p class="card-name">Web Site</p>
               </div>  
             </li>
-       </ul>
-     </div>
-    </section>
+        </ul>
+      </div>
+  </section>
 </main>
 <!--This is the footer-->
 
 <footer class="footer-style">
-    <div class="container footer-style-container">
-
+  <div class="container footer-logo-container">
+    <div class="footer-style-container">
       <a class="logo-style link" href="./index.html">
         <span>WEB</span><span class="footerinside-logo-footer">STUDIO</span>
       </a>
-      <p class="footer-paragraph">Increase the flow of customers and <br> sales for your business with digital <br> marketing &
+      <p class="footer-paragraph">Increase the flow of customers and <br> sales for your business with digital <br>
+        marketing &
         growth solutions.</p>
     </div>
-
+    <div class="footer-icon-container">
+      <p class="footer-icon-paragraph">Social media</p>
+      <ul class="footer-icon-list">
+        <li class="footer-icon-item">
+          <a class="footer-icon-link" href="instagram.com">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-icon-item">
+          <a class="footer-icon-link" href="twitter.com">
+            <svg class="footer-icon" width="24" height="24" tabindex="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-icon-item">
+          <a class="footer-icon-link" href="facebook.com">
+            <svg class="footer-icon" width="24" height="24" tabindex="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-icon-item">
+          <a class="footer-icon-link" href="linkedin.com">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </footer>
 </body>
 
