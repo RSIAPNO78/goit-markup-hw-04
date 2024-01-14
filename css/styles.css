@@ -769,11 +769,11 @@ img {
              
            /*FIRST SECTION HERO*/
 
-.first-section  {
+.first-section-container  {
       background-color: var(--NAVY-BLUE, #2e2f42);
       max-width: 1440px;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-           url(../images/people-office-1.jpg);
+           url(../images/img-people-office-1.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -813,20 +813,52 @@ img {
 
                  /*SECOND SECTION*/
 
-                 
-.feature-item-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        margin-bottom: 8px;
+
+.second-section {
+     padding-top: 123px;
+     margin-bottom: 120px;
 }
 
-.icons-item-features {
-        width: 64px;
-        height: 64px;
+.feature-item-icons {
+     padding: 24px 100px;
+     margin-bottom: 8px;
+     border-radius: 4px;
+     background: var(--CLOUD, #F4F4FD);
+     min-height: 112px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+}
+
+.list-features {
+     display: flex;
+     gap: 24px;
+}
+
+.about-features {
+     width: calc((100% - 72px) / 4);
+}
+
+.second-section-header {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 24px;
+          /* 120% */
+     letter-spacing: 0.4px;
+     margin-bottom: 8px;
 }
 
          /* THIRD SECTION*/
@@ -843,11 +875,6 @@ img {
                          /*FOURTH SECTION*/
                          
 
-.list-our-teams .team-member-bgcolor {
-     width: 264px;
-     height: 428px;
-     margin: 0 auto;
-}
 
 .team-member-bgcolor {
           background-color: var(--WHITE);
@@ -861,9 +888,17 @@ img {
      }
 
 .card-content-name {
-     width: 264px;
-     height: 104px;
      margin: 32px 0;
+}
+
+.team-member-name {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 24px;
+          /* 120% */
+     letter-spacing: 0.4px;
+     text-align: center;
+     margin-bottom: 8px;
 }
 
 .team-member-position {
@@ -872,12 +907,6 @@ img {
 }
 
 .fourth-section-ourteam {
-     width: 1440px;
-     height: 780px;
-     display: block;
-     display: flex;
-     margin: 0 auto;
-     border: 0;
      background-color: var(--CLOUD);
      padding: 120px 0;
 }
@@ -989,9 +1018,7 @@ img {
      display: flex;
 }
 
-.footer-style .footer-style-container {
-     display: inline-block;
-     margin-bottom: 16px;
+.footer-style-container {
      margin-right: 120px;
 }
 
