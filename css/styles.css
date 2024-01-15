@@ -584,7 +584,7 @@ img {
      margin-bottom: 72px;
 }
 
-.button-filter {
+.button {
      color: #FFFFFF;
      /*First Section Filter Buttons*/
      font-family: "Roboto", sans-serif;
@@ -595,13 +595,14 @@ img {
      /* 150% */
      letter-spacing: 0.04em;
      text-align: center;
+     padding: 12px 24px;
 }
 
 .button {
      background-color: #404BBF;
 }
 
-.filter-button .button-filter:hover {
+.filter-button :hover {
      background-color: #404BBF;
 }
 
@@ -615,7 +616,7 @@ img {
 
 /*Filter buttons*/
 .filter-section .button {
-     color: var(--irish);
+     color: var(--IRIS);
      text-align: center;
      /* Button Text */
      font-family: "Roboto", sans-serif;
@@ -649,7 +650,6 @@ img {
           0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* PORTFOLIO */
 
 .filter-section {
      padding-top: 96px;
