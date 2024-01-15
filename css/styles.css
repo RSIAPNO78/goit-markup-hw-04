@@ -584,6 +584,61 @@ img {
      margin-bottom: 72px;
 }
 
+.button-filter {
+     color: #FFFFFF;
+     /*First Section Filter Buttons*/
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5em;
+     /* 150% */
+     letter-spacing: 0.04em;
+     text-align: center;
+}
+
+.button {
+     background-color: #404BBF;
+}
+
+.filter-button .button-filter:hover {
+     background-color: #404BBF;
+}
+
+.filter-button .button:focus {
+     background-color: #404BBF;
+}
+
+.button {
+     cursor: pointer;
+}
+
+/*Filter buttons*/
+.filter-section .button {
+     color: var(--irish);
+     text-align: center;
+     /* Button Text */
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5em;
+     /* 150% */
+     letter-spacing: 0.04em;
+}
+
+.filter-section .button {
+     background-color: #F4F4FD;
+}
+
+.filter-button .button:hover {
+     color: #FFFFFF;
+}
+
+.filter-button .button:focus {
+     color: #FFFFFF;
+}
+
 .cards-btn:hover,
 .cards-btn:focus {
      color: var(--WHITE);
